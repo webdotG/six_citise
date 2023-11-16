@@ -2,7 +2,7 @@
   "name": "six_cities",
   "version": "13.0.0",
   "type": "module",
-  "homepage": "https://webdotG.github.io/six_citise",
+  "homepage": "https://webdotg.github.io/six_citise/",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest --passWithNoTests",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.9.5",

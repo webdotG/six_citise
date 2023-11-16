@@ -45,7 +45,7 @@ function App() {
 
   return (
     <HelmetProvider>
-      <HistoryRouter history={browserHistory}>
+      <HistoryRouter history={browserHistory} basename='/six_citise'>
         <Routes>
           <Route
             path={AppRoute.Main}
