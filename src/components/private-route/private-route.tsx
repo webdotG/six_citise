@@ -5,7 +5,7 @@ import { AuthorizationStatusType } from '../../types/authorization-status';
 
 
 type PrivateRouteProps = {
-  authorizationStatus: AuthorizationStatusType ;
+  authorizationStatus: AuthorizationStatusType | undefined ;
 }
 
 function PrivateRoute(props: PropsWithChildren<PrivateRouteProps>) {
